@@ -1,1 +1,1 @@
-![Alt text](relative/path/to/home.jpg?raw=true "Title")
+![Alt text](relative/path/to/home.jfif?raw=true "Title")
