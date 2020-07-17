@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.cardsContainer {
+    flex: 0 0 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+.cards {
+    display: flex; 
+}
+.left {
+    margin: 10px;
+}
+.left i {
+    color: #7a72eb;
+    font-size: 30px;
+}
+.right {
+    margin: 10px;
+    color: rgba(0, 0, 0, 0.637);
+}
+.right h4 {
+    letter-spacing: 0.1em;
+    margin-bottom: 10px;
+}
+.right p {
+    line-height: 22px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 600px) {
+    .cardsContainer {
+        flex-direction: column;
+    }   
+}

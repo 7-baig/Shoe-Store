@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    border-bottom: 1px solid #000;
+}
+/* PRODUCT IMAGE */
+.container .left img {
+    height: 150px;
+}
+
+/* RIGHT SECTION OF CARD */
+.container .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+/* TOP OF RIGHT SECTION OF CARD */
+.container .right .rightTop {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+/* BOTTOM OF RIGHT SECTION OF CARD */
+.container .right .rightBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+/* REMOVE ITEM BUTTON */
+.container .right .rightBottom button {
+    background: #7a72eb;
+    border: none;
+    padding: 7px 10px 7px 10px;
+    border-radius: 2px;
+    color: #dfddee;
+    cursor: pointer;
+}
+/* PRICE LABEL */
+.container .right .rightBottom span h4 {
+    border-bottom: 1px solid #000;
+} 
+/* PRICE */
+.container .right .rightBottom span .price {
+    color: rgb(3, 187, 3);
+}
+
+@media screen and (max-width: 550px) {
+    .container {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    /* REMOVE ITEM BUTTON */
+    .container .right .rightBottom button {
+        font-size: 10px;
+        padding: 6px 8px 6px 8px;
+    }
+}

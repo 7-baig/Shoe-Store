@@ -1,0 +1,37 @@
+.container {
+    background-color: white;
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+    font-family: monospace;
+    transition: transform .4s;
+}
+.container:hover {
+    transform: scale(1.1);
+}
+.container img {
+    height: 300px;
+}
+.container .namePrice {
+    padding-left: 10px;
+    margin: 10px 0px;
+}
+.container .namePrice h3 {
+    color: rgb(3, 187, 3);
+}
+.container .buttons {
+    padding-left: 10px;
+    margin: 10px 0px;
+}
+.container .buttons button {
+    background: #7a72eb;
+    border: none;
+    padding: 7px 10px 7px 10px;
+    border-radius: 2px;
+    color: #dfddee;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.container .buttons button:hover {
+    color: #ffffff;
+}
